@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "cnn_env"
+version = "0.1.0"
+description = "A python environment w/ all dependencies to run the analysis scripts in /scripts. This poetry environment should be installed within a conda environment with python/3.9.x and proj/8.2.0."
+authors = ["Jared Trok <trok@stanford.edu>"]
+
+[tool.poetry.dependencies]
+python = "3.9.*"
+tensorflow-cpu = ">=2.7"
+jupyter-server-proxy = "*"
+scikit-learn = "*"
+pandas = "*"
+jupyterlab = "*"
+seaborn = "*"
+matplotlib = "*"
+jupyter = "*"
+jupytext = "*"
+netcdf4 = "*"
+regionmask = "*"
+xarray = "*"
+geopandas = "*"
+dask = "*"
+statsmodels = "*"
+nodejs = "*"
+pyproj = "*"
+denseweight = "^0.1.2"
+pydot = "^1.4.2"
+graphviz = "^0.19.1"
+pydotplus = "^2.0.2"
+scikit-image = "^0.19.2"
+scikeras = "^0.6.1"
+joblib = "^1.1.0"
+rioxarray = "^0.11.1"
+cdsapi = "^0.5.1"
+innvestigate = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
