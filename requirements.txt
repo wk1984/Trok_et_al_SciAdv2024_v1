@@ -1,0 +1,13 @@
+numpy
+pandas
+xarray
+scikeras==0.6.1
+denseweight == 0.1.2
+pydot == 1.4.2
+graphviz == 0.19.2
+pydotplus == 2.0.2
+scikit-image == 0.19.3
+joblib == 1.4.2
+rioxarray == 0.11.0
+cdsapi == 0.7.5
+innvestigate == 2.1.1
