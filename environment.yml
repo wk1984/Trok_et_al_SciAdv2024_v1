@@ -1,6 +1,7 @@
-name: trok2024
+name: base
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - numpy
   - pandas
