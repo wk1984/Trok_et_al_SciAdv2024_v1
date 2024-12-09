@@ -1,8 +1,7 @@
 #!/bin/bash
-
-####################################################
-## create nested directories for input data files ##
-####################################################
+# ###################################################
+# # create nested directories for input data files ##
+# ###################################################
 
 proj_dir="/home/" # edit this line
 
