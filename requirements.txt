@@ -12,6 +12,7 @@ regionmask
 xarray
 geopandas
 dask
+gdal
 statsmodels
 nodejs
 pyproj
@@ -21,3 +22,4 @@ scikit-image == 0.19.3
 joblib == 1.4.2
 rioxarray == 0.11.0
 cdsapi == 0.7.5
+sqlite == 3.45.3
