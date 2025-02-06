@@ -11,6 +11,7 @@ netcdf4
 regionmask
 xarray
 geopandas
+tensorflow-gpu
 dask
 gdal
 statsmodels
